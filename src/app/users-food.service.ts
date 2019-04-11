@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
-const BASE_URL = 'http://localhost:3001/';
-//const BASE_URL = 'https://thales-code-challenge-backend.herokuapp.com/';
+const BASE_URL = 'https://thales-code-challenge-backend.herokuapp.com/';
 
 @Injectable()
 export class UsersFoodService {
